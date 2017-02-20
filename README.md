@@ -7,7 +7,8 @@ tasks. It is a tool for helping you to be clear about **what matters**.
 
 ## Installation
 To configure your environment to use the script follow the below steps. First
-clone and cd into the **priority** repository:
+follow the instructions for downloading and installing [ShellLib](https://github.com/RagingTiger/ShellLib), and then clone and cd into
+the **priority** repository:
 
 ```
 git clone https://github.com/RagingTiger/priority
