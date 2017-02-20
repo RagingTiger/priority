@@ -18,8 +18,8 @@ cd priority/
 Next you're going to append the shell script path to your .bashrc or .zshrc:
 
 ```
-echo "# alias for priority" >> "$HOME/.`basename $SHELL`rc"
-echo "alias priority=$PWD/priority.sh" >> "$HOME/.`basename $SHELL`rc"
+printf "\n# alias for priority" >> "$HOME/.`basename $SHELL`rc"
+printf "\nalias priority=$PWD/priority.sh" >> "$HOME/.`basename $SHELL`rc"
 source "$HOME/.`basename $SHELL`rc"
 ```
 
